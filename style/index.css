@@ -65,5 +65,54 @@ body {
 }
 
 .c-subtitle {
-    color: lightgrey;
+    color: grey;
+}
+
+.card-price, .card-altrate, .card-button {
+    text-align: center;
+    margin: 0 auto;
+}
+
+.c-button {
+    text-decoration: none;
+    color: white;
+    line-height: 2.5;
+}
+
+.card-button {
+    background: blue;
+    border-radius: 20px;
+    margin: 0 0;
+    height: 40px;
+    margin-bottom: 20px;
+}
+
+.price {
+    font-weight: 700;
+    font-size: 300%;
+}
+
+.dollr {
+    font-weight: 600;
+    font-size: 150%;
+}
+
+.rate {
+    color: grey;
+    font-style: italic; 
+}
+
+.card-altrate {
+    height: 25px;
+    margin: 20px 0 25px 0;
+}
+
+.altrate2 {
+    background: rgba(211, 211, 211, 0.825);
+    padding: 6px;
+    border-radius: 5px;
+}
+
+li {
+    display: inline-block;
 }
