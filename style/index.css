@@ -9,4 +9,28 @@ body {
     width: 100%;
 	height: 100vh;
 	max-height: 100vh;
+    max-width: 1024px;
+}
+
+.header {
+    position: relative;
+    top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.rate-buttons {
+    display: flex;
+    max-width: 120px;
+    flex-wrap: nowrap;
+}
+
+.rate-buttons > * {
+    flex-basis: 120px;
+    display: flex;
+    align-items: center;
+}
+
+.m-width {
+    width: 64px;
 }
