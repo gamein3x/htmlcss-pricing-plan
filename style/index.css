@@ -63,3 +63,7 @@ body {
 .c-ultimate {
     flex: 300px 1 1;
 }
+
+.c-subtitle {
+    color: lightgrey;
+}
