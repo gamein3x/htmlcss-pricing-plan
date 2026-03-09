@@ -1,0 +1,1 @@
+# Esercizio del Lunedì 09/03/2026 - Pricing Plan
