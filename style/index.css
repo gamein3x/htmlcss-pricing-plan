@@ -10,18 +10,20 @@ body {
 	height: 100vh;
 	max-height: 100vh;
     max-width: 1024px;
-}
-
-.header {
     position: relative;
     top: 20px;
+}
+
+/* Il container è il body, tanto lo sfondo è bianco */
+
+.header {
     display: flex;
     flex-wrap: wrap;
+    justify-content: space-between;
 }
 
 .rate-buttons {
     display: flex;
-    max-width: 120px;
     flex-wrap: nowrap;
 }
 
@@ -29,8 +31,35 @@ body {
     flex-basis: 120px;
     display: flex;
     align-items: center;
+    height: 60px;
 }
 
 .m-width {
     width: 64px;
+}
+
+/* Non so cos'è meta queary, i bottoni restano lì per adesso */
+
+.main {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    align-items: stretch;
+    justify-content: space-between;
+}
+
+.card {
+    flex-basis: 300px;
+    min-width: 280px;
+    background: whitesmoke;
+    border-radius: 20px;
+    padding: 32px;
+    box-shadow: 2px 4px #88888830;
+    min-height: 420px;
+    flex-shrink: 0;
+    flex-grow: 1;
+}
+
+.c-ultimate {
+    flex: 300px 1 1;
 }
