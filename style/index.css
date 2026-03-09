@@ -12,6 +12,8 @@ body {
     max-width: 1024px;
     position: relative;
     top: 20px;
+    padding: 10px;
+    font-family: sans-serif;
 }
 
 /* Il container è il body, tanto lo sfondo è bianco */
@@ -115,4 +117,11 @@ body {
 
 li {
     display: inline-block;
+    flex-basis: 385px;
+}
+
+.benefit-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
 }
