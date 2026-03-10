@@ -12,7 +12,7 @@ body {
     max-width: 1024px;
     position: relative;
     top: 20px;
-    padding: 10px;
+    padding: 15px;
     font-family: sans-serif;
 }
 
@@ -79,6 +79,8 @@ body {
     text-decoration: none;
     color: white;
     line-height: 2.5;
+    display: inline-block;
+    width: 100%;
 }
 
 .card-button {
@@ -124,4 +126,23 @@ li {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
+}
+
+.desc {
+    margin-bottom: 10px;
+}
+
+.f-container {
+    margin-left: 15px;
+}
+
+.feature-check {
+    position: relative;
+    left: 5px;
+    font-size: x-large;
+    color: rgb(34, 184, 34);;
+}
+
+.cross {
+    color: rgb(203, 7, 7);
 }
